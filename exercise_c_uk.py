@@ -15,6 +15,15 @@ united_kingdom = [
     "capital": "London"
   }
 ]
+ # messing around:
+"""for country in united_kingdom:
+    print(f"country is {country['name']}")
+
+for country in united_kingdom:
+    if country ["name"] == "England":
+        print(country['name'])"""
+
+    
 
 # 1. Change the capital of Wales from `"Swansea"` to `"Cardiff"`.
 united_kingdom[1]['capital'] = "Carfiff"
